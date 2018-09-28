@@ -116,7 +116,8 @@ table {
   text-decoration: none;
   text-transform: uppercase; }
   .menu__text_active {
-    color: #556485; }
+    color: #556485;
+    font-weight: bold; }
 
 .form-wrapper {
   position: relative;

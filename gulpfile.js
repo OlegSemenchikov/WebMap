@@ -38,6 +38,7 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function() {
     return gulp.src([
         'app/js/сopybuffer.js',
+        'app/js/menu-active.js',
         'app/js/burger-menu.js'])
         .pipe(concat('main.min.js'))
         .pipe(uglify())

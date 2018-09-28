@@ -82,6 +82,7 @@
     text-transform: uppercase;
     &_active{
       color: $header_color-dark;
+      font-weight: bold;
     }
   }
 }
